@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="shortcut icon" href="/files/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<h1>
+			{{ page.heading }}
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/resume">Resume</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+		</nav>
+
+		<div>
+			{{ content }}
+		</div>
+
+		<footer>
+			<a href="mailto:junege37@gmail.com">email</a>
+		</footer>
+	</body>
+</html>
